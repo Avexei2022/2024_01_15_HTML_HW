@@ -1,0 +1,155 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    width: 1170px;
+    height: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header__logo {
+    width: 35px;
+    height: 40px;
+    margin-right: 14px;
+}
+
+.header__logo_txt{
+    display: flex;
+    height: 30px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header__logo_txt_grow{
+    color: #000;
+}
+
+.header__logo_txt_be{
+    color: #F25822;
+}
+
+nav{
+    display: flex;
+    width: 529px;
+    height: 17px;
+    margin: 11px auto 12px 500px;
+    gap: 30px;
+
+}
+
+.nav__link{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+.nav__link:first-child{
+    color: #F25822;
+}
+
+
+main{
+    display: flex;
+    width: 1170px;
+    height: 536px;
+    padding-top: 44px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main__seo {
+    width: 540px;
+    height: 380px;
+    
+}
+
+
+.main__seo__h1{
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    padding-bottom: 17px;
+}
+
+.main__seo__p {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main__seo__button{
+    display: flex;
+    height: 50px;
+    padding-top: 37px;
+}
+
+.main__seo__button__button{
+    display: block;
+    width: 72px;
+    height: 19px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    padding: 15px 36px 16px 35px;
+
+}
+
+.main__seo__button__text{
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin: 15px auto 16px 72px;
+}
+
+.main__img { 
+    width: 544px;
+    height: 374x;
+    margin: 0px auto auto 41px;
+
+}
+
+footer{
+    display: flex;
+    width: 1170px;
+    height:50px;
+    gap: 41px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 97px;
+    padding-bottom: 98px;
+}
+
