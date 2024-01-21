@@ -17,17 +17,24 @@ a {
 header {
     display: flex;
     width: 1170px;
-    height: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    height: 120px;
     margin-right: auto;
     margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo {
+    display: flex;
+    width: 142px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo_img {
     width: 35px;
     height: 40px;
-    margin-right: 14px;
 }
 
 .header__logo_txt{
@@ -36,8 +43,9 @@ header {
     font-size: 24px;
     font-style: normal;
     font-weight: bold;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .header__logo_txt_grow{
@@ -50,11 +58,10 @@ header {
 
 nav{
     display: flex;
-    width: 529px;
+    width: 533px;
     height: 17px;
-    margin: 11px auto 12px 500px;
-    gap: 30px;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__link{
@@ -77,10 +84,13 @@ main{
     padding-top: 44px;
     margin-right: auto;
     margin-left: auto;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
 }
 
 .main__seo {
-    width: 540px;
+    width: 522px;
     height: 380px;
     
 }
@@ -88,31 +98,36 @@ main{
 
 .main__seo__h1{
     color: #000;
-    font-size: 60px;
+    height: 222px;
+    font-size: 58px;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    padding-bottom: 17px;
 }
 
 .main__seo__p {
     color: #888;
-    font-size: 20px;
+    font-size: 21px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     line-height: normal;
+    padding-top: 17px;
 }
 
 .main__seo__button{
     display: flex;
+    width: 304px;
     height: 50px;
     padding-top: 37px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
 .main__seo__button__button{
-    display: block;
-    width: 72px;
-    height: 19px;
+    display: flex;
+    width: 140px;
+    height: 50px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #F25822;
@@ -122,34 +137,41 @@ main{
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    padding: 15px 36px 16px 35px;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .main__seo__button__text{
+    display: flex;
+    width: 92px;
+    height: 19px;
     color: #AAA;
     font-size: 15px;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    margin: 15px auto 16px 72px;
+    flex-direction: row;
 }
 
 .main__img { 
     width: 544px;
     height: 374x;
-    margin: 0px auto auto 41px;
+    margin-left: 41px;
 
 }
 
-footer{
+footer {
     display: flex;
     width: 1170px;
-    height:50px;
-    gap: 41px;
+    height:243px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 97px;
-    padding-bottom: 98px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__brand {
+    width: 160px;
+    height:50px;
 }
 
